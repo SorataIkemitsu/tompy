@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git add m commit cpp/.keep hpp/.keep obj/.keep
+git add cpp/*.cpp
+git add hpp/*.hpp
+git commit -m "$1"
+
